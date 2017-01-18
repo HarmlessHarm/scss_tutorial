@@ -1,6 +1,6 @@
 {
     "output": {
-        "dir": "app/css",      // Relative or absolute path (can have ..)
+        "dir": "static/css",      // Relative or absolute path (can have ..)
         "structure": "flat"       // "flat", "nested", or ["nested", "relative/root/of/nest"]
     },
     "compile": {
