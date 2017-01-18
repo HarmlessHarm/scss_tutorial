@@ -1,5 +1,7 @@
 # SCSS build tutorial
 
+This is a tutorial meant for new scss users
+
 ## Basic file structure
 ```
 project/
@@ -20,8 +22,9 @@ _libsass:_
 - Each time you change something you have to compile again
 
 _gulp:_
+- Harder to setup
 - Watch mode so every change you make is compiled
-- More difficult to setup
+- Gulp offers a lot more then just scss compiling such as js/css minifying and image optimisation
 
 ## Using libsass build sublime package
 
@@ -38,8 +41,7 @@ Libsass Build recourse:
 
 1. If node / gulp not yet installed on system:   
 > `install npm`   
-`npm install gulp -g`   
-
+`npm install gulp -g`
 2. Initialize node in directory and install gulp and gulp-sass   
 > `npm init`   
 `npm install gulp gulp-sass --save-dev`   
