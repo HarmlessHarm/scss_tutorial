@@ -1,9 +1,15 @@
 body {
-	background: blue;
-	div {
+	#div1 {
+		background: blue;
+		p {
+			font-size: 12px;
+		}
+	}
+
+	#div2 {
 		background: red;
-		height: 50%;
-		width: 100%;
-		z-index: 1;
+		p {
+			font-size: 15px;
+		}
 	}
 }
